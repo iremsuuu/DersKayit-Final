@@ -1,23 +1,53 @@
-
-Uçak Bilet Rezervasyon Uygulaması
-Bu uçak bilet rezervasyon uygulaması, temel olarak lokasyon, rezervasyon, uçak ve uçuş verilerini yöneten bir konsol uygulamasını içerir. Aşağıda uygulamanın nasıl kullanılacağına, kurulumuna ve dikkate alınması gereken bazı noktalara dair bilgiler bulunmaktadır.
+Öğrenci Bilgi Sistemi
+Bu proje, öğrenci, ders ve öğretim görevlisi bilgilerini yöneten bir öğrenci bilgi sistemi uygulamasını içermektedir. Aşağıda proje bileşenlerinin nasıl kullanılacağına dair bilgiler bulunmaktadır.
 
 Kullanım
-Uygulamayı Başlatma:
+Ana Menü
+Ana menüde, kullanıcı "Ders Formu," "Öğrenci Formu," veya "Öğretim Görevlisi Formu"nu açabilir.
 
-Proje dosyalarını indirin ve Visual Studio veya benzeri bir geliştirme ortamında açın.
-main.cs dosyasını çalıştırarak uygulamayı başlatın.
-İlk Menü:
+Ders Formu:
 
-Uygulama başlatıldığında, lokasyon, rezervasyon, uçak ve uçuş listelerini görüntülemek veya yeni bir kayıt eklemek için bir seçenek menüsü ile karşılaşacaksınız.
-Yapmak istediğiniz işlemi seçin (örneğin, "1" tuşlayarak listeleri görüntüleyin veya "2" tuşlayarak yeni bir kayıt ekleyin).
-Listeleme ve Eklemeler:
+Ders eklemek ve listelemek için kullanılır.
+Ders formunu açmak için "Ders Formu" butonuna tıklayın.
+Ders eklemek için gerekli alanları doldurun ve "Kaydet" butonuna tıklayın.
+Arama yapmak için "Ara" butonunu kullanabilirsiniz.
+Öğrenci Formu:
 
-Listeleme seçeneğini seçtiğinizde, mevcut lokasyon, rezervasyon, uçak ve uçuş listelerini tablo şeklinde görüntüleyebilirsiniz.
-Yeni bir kayıt eklemek istediğinizde, eklemek istediğiniz veri tipini (lokasyon, rezervasyon, uçak veya uçuş) seçin ve gerekli bilgileri girin.
-Veri Ekleme Örnekleri:
+Öğrenci eklemek ve listelemek için kullanılır.
+Öğrenci formunu açmak için "Öğrenci Formu" butonuna tıklayın.
+Öğrenci eklemek için gerekli alanları doldurun ve "Kaydet" butonuna tıklayın.
+Arama yapmak için "Ara" butonunu kullanabilirsiniz.
+Öğretim Görevlisi Formu:
 
-Yeni bir lokasyon eklerken, ülke, şehir ve havaalanı bilgilerini girebilirsiniz.
-Rezervasyon eklerken, ad, soyad, yaş ve uçuş ID bilgilerini girebilirsiniz.
-Yeni bir uçak eklerken, marka, model, seri numarası ve koltuk sayısı bilgilerini girebilirsiniz.
-Uçuş eklerken, saat, lokasyon ID ve uçak ID bilgilerini girebilirsiniz.
+Öğretim görevlisi eklemek ve listelemek için kullanılır.
+Öğretim görevlisi formunu açmak için "Öğretim Görevlisi Formu" butonuna tıklayın.
+Öğretim görevlisi eklemek için gerekli alanları doldurun ve "Kaydet" butonuna tıklayın.
+Arama yapmak için "Ara" butonunu kullanabilirsiniz.
+Proje Bileşenleri
+1. Ders Formu
+Ders eklemek ve listelemek için kullanılır.
+
+Ders Eklemek
+Ders eklemek için "Ders Formu"nu açın.
+Gerekli alanları doldurun.
+"Kaydet" butonuna tıklayın.
+Ders Listelemek
+Ders listesini görüntülemek için "Ders Formu"nu açın.
+2. Öğrenci Formu
+Öğrenci eklemek ve listelemek için kullanılır.
+
+Öğrenci Eklemek
+Öğrenci eklemek için "Öğrenci Formu"nu açın.
+Gerekli alanları doldurun.
+"Kaydet" butonuna tıklayın.
+Öğrenci Listelemek
+Öğrenci listesini görüntülemek için "Öğrenci Formu"nu açın.
+3. Öğretim Görevlisi Formu
+Öğretim görevlisi eklemek ve listelemek için kullanılır.
+
+Öğretim Görevlisi Eklemek
+Öğretim görevlisi eklemek için "Öğretim Görevlisi Formu"nu açın.
+Gerekli alanları doldurun.
+"Kaydet" butonuna tıklayın.
+Öğretim Görevlisi Listelemek
+Öğretim görevlisi listesini görüntülemek için "Öğretim Görevlisi Formu"nu açın.
